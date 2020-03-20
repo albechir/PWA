@@ -6,6 +6,7 @@ export default function Landing() {
   return (
     <>
       <Wrap>
+        <h1></h1>
         <Gif />
         <ButtonWrap>
           <a href='/before'>
@@ -19,6 +20,10 @@ export default function Landing() {
     </>
   )
 }
+
+const Title = styled.h1`
+  
+`
 
 const Global = styled.div``
 
@@ -63,6 +68,10 @@ const Wrap = styled.div`
   height: 850px;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `
 
 const ButtonWrap = styled.div`
