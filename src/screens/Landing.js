@@ -6,7 +6,7 @@ export default function Landing() {
   return (
     <>
       <Wrap>
-        <h1></h1>
+        <Title>COVID-19</Title>
         <Gif />
         <ButtonWrap>
           <a href='/before'>
@@ -22,7 +22,10 @@ export default function Landing() {
 }
 
 const Title = styled.h1`
-  
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  //margin-top: -175px;
 `
 
 const Global = styled.div``
@@ -71,7 +74,7 @@ const Wrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  //justify-content: center;
 `
 
 const ButtonWrap = styled.div`

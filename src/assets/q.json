@@ -1,0 +1,60 @@
+{
+  "theme1": [{
+    "question": "Je tousse ?",
+    "answers": [{
+      "answer": "Dans ma main",
+      "isTrue": false
+    },
+      {
+        "answer": "Mon coude",
+        "isTrue": true
+      },
+      {
+        "answer": "Un mouchoir",
+        "isTrue": true
+      },
+      {
+        "answer": "En dabant",
+        "isTrue": false
+      }
+    ],
+    "advice": "Tousser ou éternuer dans son coude ou dans un mouchoir."
+  },
+    {
+      "question": "Quels sont les symptômes du coronavirus ?",
+      "answers": [{
+        "answer": "Toux, douleurs musculaires, fièvre, difficultés respiratiores",
+        "isTrue": true
+      },
+        {
+          "answer": "Boutons, plaques, toux, caca rose",
+          "isTrue": false
+        }
+      ],
+      "advice": "Les symptômes principaux sont la fièvre ou la sensation de fièvre et des signes de difficultés respiratoires de type toux ou essoufflement."
+    },
+    {
+      "question": "Quelle est la durée d'incubation ?",
+      "answers": [{
+        "answer": "3 à 5 jours",
+        "isTrue": false
+      },
+        {
+          "answer": "1 à 3 jours",
+          "isTrue": false
+        }, {
+          "answer": "3 à 14 jours",
+          "isTrue": true
+        }, {
+          "answer": "5 à 20 jours",
+          "isTrue": false
+        }
+      ],
+      "advice": "Les symptômes principaux sont la fièvre ou la sensation de fièvre et des signes de difficultés respiratoires de type toux ou essoufflement."
+    }
+  ],
+  "theme2": [{}],
+  "theme3": [{}],
+  "theme4": [{}],
+  "theme5": [{}]
+}
